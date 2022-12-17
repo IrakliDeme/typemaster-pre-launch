@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>typemaster-pre-launch</title>
+  </head>
+  <style>
+    .logo {
+      display: flex;
+      justify-content: space-between;
+    }
+    .pre {
+      font-size: 16px;
+      color: #162542;
+    }
+
+    .typemaster {
+      font-size: 48px;
+      color: #162542;
+    }
+    .improve {
+      font-size: 16px;
+      color: #7b8bad;
+    }
+    .pre-orange {
+      width: 150px;
+      height: 48px;
+      background-color: #f16718;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 8px;
+    }
+    .pre-2 {
+      font-size: 16px;
+      color: #ffffff;
+    }
+    .top-1 {
+      width: 175px;
+      height: 48px;
+      background-color: #e8eff2;
+      border-radius: 8px;
+    }
+    .realize {
+      font-size: 16px;
+      color: #7b8bad;
+    }
+    .pay-but {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .keyboard-1 {
+      display: flex;
+      justify-content: flex-end;
+      height: 380px;
+      margin-right: -2%;
+    }
+    .key-1 {
+      max-width: 100%;
+      border-radius: 12px;
+    }
+    .keyboard-2 {
+      border-radius: 10px;
+      width: 150px;
+      height: 280px;
+      background-image: url("./image-phone-and-keyboard.jpg");
+      margin-left: -2%;
+      overflow: hidden;
+    }
+    .overlay {
+      width: 100%;
+      height: 100%;
+      background: #f16718;
+      opacity: 0.8;
+    }
+    .keyboard-3 {
+      width: 300px;
+      height: 320px;
+      padding-left: 5%;
+    }
+    .key-2 {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .key-3 {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .keyboard-child {
+      margin-top: 5%;
+      display: flex;
+    }
+    .mechanical {
+      font-size: 32px;
+      color: #162542;
+    }
+    .type-key {
+      font-size: 16px;
+      color: #7b8bad;
+    }
+    .heading-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .icon-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 65px;
+      height: 65px;
+      background-color: #f16718;
+      border-radius: 16px;
+      margin-right: 5%;
+    }
+    .icon-h {
+      font-size: 24px;
+      color: #162542;
+    }
+    .icon-paragraps {
+      font-size: 16px;
+      color: #7b8bad;
+    }
+    .icon-div-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .icon-div-2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .icon-div-3 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .icon-div-4 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .last-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .t-2021 {
+      font-size: 16px;
+      color: #7b8bad;
+    }
+    .key-1-des {
+      display: none;
+    }
+    .top-1{
+      width: 150px;
+      height: 50px;
+      background-color: #E8EFF2;
+    }
+    @media screen and (min-width: 768px) {
+      .break-point-1 {
+        display: flex;
+        justify-content: space-around;
+      }
+      .keyboard-1 {
+        margin-right: -10%;
+      }
+      .keyboard-2 {
+        margin-left: 5%;
+        width: 300px;
+        height: 380px;
+      }
+      .keyboard-3 {
+        width: 400px;
+        height: 420px;
+        padding-left: 5%;
+      }
+      .heading-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .icon-father-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5%;
+      }
+      .icon-div-1 {
+        align-items: flex-start;
+        width: 45%;
+      }
+      .icon-div-2 {
+        align-items: flex-start;
+        width: 45%;
+      }
+      .icon-div-3 {
+        align-items: flex-start;
+        width: 45%;
+      }
+      .icon-div-4 {
+        align-items: flex-start;
+        width: 45%;
+      }
+      @media screen and (min-width: 1440px) {
+        .key-1{
+      display: none;
+        }
+        .key-1-des {
+      display: inline;
+      border-radius: 10px;
+
+    }
+    .keyboard-1 {
+
+        height: 420px;
+      }
+      .break-point-2{
+        display: flex;
+        justify-content: space-evenly;
+
+      }
+      .heading-2{
+        flex-direction: column;
+      }
+      .icon-div-1 {
+        align-items: flex-start;
+        width: 15%;
+      }
+      .icon-div-2 {
+        align-items: flex-start;
+        width: 15%;
+      }
+      .icon-div-3 {
+        align-items: flex-start;
+        width: 15%;
+      }
+      .icon-div-4 {
+        align-items: flex-start;
+        width: 15%;
+      }
+      .des-box-1{
+     width: 200px;
+     height: 240px;
+     background: #E8EFF2;
+     border-radius: 10px;
+    margin-right: -15%;
+      }
+     .typemaster{
+       font-size: 56px;
+     }
+     .improve{
+       font-size: 18px;
+     }
+    .des-box-2{
+      width: 200px;
+     height: 240px;
+     background: #E8EFF2;
+     border-radius: 10px;
+     margin-top: 15%;
+     margin-left: -15%;
+    }
+    }
+  </style>
+  <body>
+    <div class="logo">
+      <img class="logo1" src="./logo.svg" />
+      <div calss="top-1">
+        <p class="pre">PRE-ORDER NOW</p>
+      </div>
+    </div>
+    <div class="break-point-1">
+      <div class="heading">
+        <h1 class="typemaster">
+          TYPEMASTER<br />
+          KEYBORD
+        </h1>
+        <p class="improve">
+          Improve your productivity and gaming without<br />
+          breaking the bank. Upgrade to a high quality<br />
+          mechanical typing experience.
+        </p>
+        <div class="pay-but">
+          <div class="pre-orange">
+            <p class="pre-2">PRE-ORDER NOW</p>
+          </div>
+          <p class="realize">RELEAZE ON 5/27</p>
+        </div>
+      </div>
+
+      <div class="keyboard-1">
+        <img class="key-1" src="./image-keyboard.jpg" />
+        <img class="key-1-des" src="./image-keyboard-des.jpg" />
+      </div>
+      <div class="des-box-1"></div>
+    </div>
+    <div class="break-point-2">
+      <div class="des-box-2"></div>
+      <div class="keyboard-child">
+        <div class="keyboard-2">
+          <div class="overlay"></div>
+        </div>
+        <div class="keyboard-3">
+          <img class="key-3" src="./image-glass-and-keyboard.jpg" />
+        </div>
+      </div>
+      <div class="heading-2">
+        <h1 class="mechanical">
+          MECHANICAL<br />
+          WIRLESS<br />
+          KEYBOARD
+        </h1>
+        <p class="type-key">
+          The Typemaster keyboard boasts top-notch<br />
+          build and practical design. It offers a wide<br />
+          variety of switches and keycaps, along with<br />
+          reliable wireless connectivity.
+        </p>
+      </div>
+    </div>
+    <div class="icon-father-div">
+      <div class="icon-div-1">
+        <div class="icon-box">
+          <img class="comp" src="./icon-compatible.svg" />
+        </div>
+        <h1 class="icon-h">
+          HIGHLY<br />
+          COMPADIBLE
+        </h1>
+        <p class="icon-paragraps">
+          Easy to use and works well with all major<br />
+          computer brands, gaming consoles and mobile<br />
+          devices. Plug & play, no installation or driver<br />
+          needed.
+        </p>
+      </div>
+      <div class="icon-div-2">
+        <div class="icon-box">
+          <img class="bluetuth" src="./icon-bluetooth.svg" />
+        </div>
+        <h1 class="icon-h">
+          WIRLESS<br />
+          WITH BULETUTH
+        </h1>
+        <p class="icon-paragraps">
+          Powerful 2.4G RF technology allows you to<br />
+          connect the cordless keyboard from up to 30ft<br />
+          away. Simply plug the unifying receiver into<br />
+          your computer.
+        </p>
+      </div>
+      <div class="icon-div-3">
+        <div class="icon-box">
+          <img class="battery" src="./icon-battery.svg" />
+        </div>
+        <h1 class="icon-h">
+          HIGHT CAPACITY<br />
+          BATTERY
+        </h1>
+        <p class="icon-paragraps">
+          Equipped with a long-lasting built-in battery,<br />
+          you’ll never have to spend a dime on<br />
+          replaceable ones. Enjoy 40 hours of usage<br />
+          time between charges.
+        </p>
+      </div>
+      <div class="icon-div-4">
+        <div class="icon-box">
+          <img class="light" src="./icon-light.svg" />
+        </div>
+        <h1 class="icon-h">
+          RGB BACKLIT<br />
+          MODES
+        </h1>
+        <p class="icon-paragraps">
+          Choose from 4 backlight brightness levels and<br />
+          adjustable breathing speed. Each key glows<br />
+          intensely in the dark and helps you type in low<br />
+          light conditions.
+        </p>
+      </div>
+    </div>
+    <div class="last-line">
+      <h6 class="t-2021">Typemaster 2021 | All Rights Recerved</h6>
+    </div>
+  </body>
+</html>
